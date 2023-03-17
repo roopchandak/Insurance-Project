@@ -1,0 +1,67 @@
+<div class="menu-container nav-wrapper">
+  <div class="brand">
+    <a href="index.html">
+      <img src="../assets/img/insurancy logo.png" alt="insurancy-logo" border="0">
+    </a>
+  </div>
+
+  <div class="hamberger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <ul class="nav-list">
+    <li class="active"><a routerLink="/home">Home</a></li>
+    <li><a routerLink="/about">About</a></li>
+    <li><a routerLink="/insurance">Insurance</a></li>
+    <li><a routerLink="/news">News</a></li>
+    <li><a  data-toggle="modal" data-target="#exampleModalCenter" style="cursor: pointer;">Login</a></li>
+    <li><a routerLink="/contact">Contacts</a></li>
+     <li>
+  <input type="text" class="form-control" id="search" aria-describedby="search" placeholder="Search">
+    </li>
+    <li><a>{{userName}}</a></li>
+    
+  </ul>
+
+</div>
+<router-outlet></router-outlet>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Login Model</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div  *ngIf="errorShow" class="alert alert-danger" id="success-alert" >
+      <button type="button" class="close" data-dismiss="alert">x</button>
+      <strong>Error! </strong> Invalid Username or Invalid Password.
+    </div>
+      <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" autocomplete="off" class="form-control" id="exampleInputEmail1" name="username" [(ngModel)]="email" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" autocomplete="off" class="form-control" name="password"  [(ngModel)]="password" id="exampleInputPassword1" placeholder="Password">
+        </div>
+    </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary closebtn" data-dismiss="modal">Close</button>
+        <button type="button" (click)="addButton()" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-container">
+    <p class="para-line white">Copyright © 2023</p>
+  </div>
+</footer>
