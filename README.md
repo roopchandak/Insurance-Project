@@ -5,7 +5,9 @@ Step 1: Run the below command to clone the project:
 
 git clone https://github.com/roopchandak/Insurance-Project.git 
 
+
 Step 2: cd Insurance-Project
+
 
 Step 3: Install Node from https://nodejs.org/en/
 
@@ -21,7 +23,9 @@ admin@test-MacBook-Pro ~ % node -v
 
 v19.8.1
 
+
 Step 4: npm install
+
 
 Step 5: Run the following command to install angular CLI,
 
@@ -54,6 +58,7 @@ To disable this warning use "ng config -g cli.warnings.versionMismatch false".
 
 
 Step 7: Open your browser and type: http://localhost:4200. And you should be able to access our INSURANCE Website.
+  
 ![image](https://user-images.githubusercontent.com/20028970/226084098-9cd6b5ad-a4dd-42ae-b913-f80f27550434.png)
 
 
