@@ -1,6 +1,5 @@
-# Insurance-Project
-**
-Project Setup:**
+# Project Setup
+
 
 Step 1: Run the below command to clone the project: 
 
