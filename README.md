@@ -14,7 +14,9 @@ To confirm that the installation was successful, please execute the following,
 
 PS C:\Windows\system32> node -v
 v19.8.1
+
 ===========
+
 admin@test-MacBook-Pro ~ % node -v
 v19.8.1
 
