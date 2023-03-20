@@ -45,12 +45,17 @@ Step 6: cd <ProjectLocation>/Insurance-Project/src/app/
 
 
 Step 7: Run command in terminal/command prompt: 
+
            1. cd <ProjectLocation>/Insurance-Project/
+           
            2. ng serve 
 
 Please make sure that you're running this command from the Project location (Insurance-Project/)
+
 Ex:
+
 admin@test-MacBook-Pro Insurance-Project % ng serve
+
 Your global Angular CLI version (15.2.4) is greater than your local version (15.2.2). The local Angular CLI version is used.
 
 To disable this warning use "ng config -g cli.warnings.versionMismatch false".
