@@ -44,7 +44,7 @@ Step 6: cd <ProjectLocation>/Insurance-Project/src/app/
 <img width="760" alt="Screenshot 2023-03-18 at 9 27 22 AM" src="https://user-images.githubusercontent.com/20028970/226083763-a4066c69-ec61-49ed-b473-151641c195f0.png">
 
 
-Step 7: Run command in terminal/command prompt: 
+Step 7: Run following commands in terminal/command prompt: 
 
            1. cd <ProjectLocation>/Insurance-Project/
            
